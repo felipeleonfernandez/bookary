@@ -1,1 +1,0 @@
-console.log("This is Bookary, your personal library software");
