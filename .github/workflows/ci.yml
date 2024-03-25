@@ -24,6 +24,8 @@ jobs:
           node-version: '20'
       - name: Install Yarn
         run: yarn install
+      - name: Install ESLint
+        run: npm init @eslint/config
       - name: Install Prettier
         run: yarn add -D prettier
       - name: ESLint
