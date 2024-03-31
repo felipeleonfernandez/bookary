@@ -1,0 +1,14 @@
+{
+    "name": "bookary",
+    "version": "1.0.0",
+    "description": "Save the books you've have read, mark your favorites and write about them.",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Felipe León Fernández",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0"
+    }
+}

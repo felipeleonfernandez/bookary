@@ -22,14 +22,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '20'
-      - name: Install Yarn
-        run: yarn install
-      - name: Install ESLint
-        run: npm init @eslint/config
-      - name: Install Prettier
-        run: yarn add -D prettier
-      - name: ESLint
-        run: yarn run fix .
-      - name: Prettier
-        run: yarn prettier --write .
-
+      - run: npm install
+      - run: npm test
+      
