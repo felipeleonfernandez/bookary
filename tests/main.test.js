@@ -1,4 +1,4 @@
-const { addBook } = require('../root/js/main');
+const { addBook } = require('../src/js/main');
 
 test('Add a book with author', () => {
     let books = [];
