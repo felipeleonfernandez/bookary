@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '20'
+      - run: ls -l
       - run: npm install
+      - run: ls -l
       - run: npm test
       
