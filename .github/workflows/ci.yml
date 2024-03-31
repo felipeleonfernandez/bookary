@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '20'
       - run: ls -l
-      - run: npm install
+      - run: npm ci
       - run: ls -l
       - run: npm test
       
